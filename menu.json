@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "judul": "Sate mantap",
+      "gambar": "https://akcdn.detik.net.id/visual/2020/03/12/6ece7971-f89e-45fb-99cd-83caabcc1903_169.jpeg?w=700&q=90",
+      "keterangan": "Sate enak dan lezat",
+      "harga": 50000
+    },
+    {
+      "judul": "Es Teh manis",
+      "gambar": "https://cdn.idntimes.com/content-images/community/2019/06/ice-tea-liptoncom-2-92ddac61a4c17ace3c55aaf553738d30_600x400.png",
+      "keterangan": "Sate enak dan lezat",
+      "harga": 20000
+    },
+    {
+      "judul": "Seblak Raja",
+      "gambar": "https://cdn.idntimes.com/content-images/post/20171108/seblak-sultan-5e88fc7936847cac989d99bdcd58d499_600x400.jpg",
+      "keterangan": "Sate enak dan lezat",
+      "harga": 35000
+    },
+    {
+      "judul": "Soto Suroboyo",
+      "gambar": "https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/09/04/1104944263.jpg",
+      "keterangan": "Sate enak dan lezat",
+      "harga": 30000
+    },
+    {
+      "judul": "Soto Betawi",
+      "gambar": "https://www.resepistimewa.com/wp-content/uploads/soto-betawi.jpg",
+      "keterangan": "Sate enak dan lezat",
+      "harga": 30000
+    }
+  ],
+  "toko": {
+    "pemilik": "Abdul Munim",
+    "email": "abcd",
+    "nama": "Toko makan Enak",
+    "alamat": "Jl HS. rongowaluyo"
+  }
+}
