@@ -62,10 +62,29 @@ body {
   flex-wrap: wrap;
 }
 
+.container-detail {
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .card {
   /* padding: 20px 0; */
   border-radius: 10px;
   width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card-detail {
+  /* padding: 20px 0; */
+  border-radius: 10px;
+  width: 500px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -80,8 +99,8 @@ body {
 }
 
 .image-container {
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 150px;
@@ -91,7 +110,65 @@ body {
   margin: 5px 20px 20px 20px;
 }
 
+.menu-desc-long {
+  margin: 5px 20px 20px 20px;
+}
+
 .menu-price {
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.control-container {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.btn-control {
+  margin: 0;
+  width: 80px;
+}
+
+.qty {
+  margin: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.qty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-pesan {
+  background-color: #50c878;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.button-pesan:hover {
+  background-color: #3b9258;
+  cursor: pointer;
+}
+
+.counter-barang {
+  position: absolute;
+  text-align: center;
+  right: 35px;
+  top: 20px;
+  background-color: red;
+  border-radius: 15px;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-weight: bold;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warungku App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="brand-container">
+        <img
+          id="logo"
+          src="https://www.iconpacks.net/icons/2/free-store-icon-2017-thumb.png"
+          alt="Logo"
+          title="Logo"
+        />
+        <p class="store-name">Warungku App</p>
+      </div>
+      <div class="search-container">
+        <div class="counter-barang">0</div>
+        <img
+          id="search-icon"
+          src="https://image.flaticon.com/icons/png/512/126/126083.png"
+          alt="Search"
+          title="Search"
+        />
+      </div>
+    </div>
+
+    <div class="container-detail">
+      <div class="card-detail">
+        <h3 id="nama-menu"></h3>
+        <div
+          class="image-container"
+          style="background: url(${element.gambar})"
+        ></div>
+        <p class="menu-price-detail">Rp ${element.harga}</p>
+        <p class="menu-desc-short">${element.keterangan}</p>
+      </div>
+
+      <div class="control-container">
+        <div class="qty-container">
+          <div class="button-container">
+            <button
+              type="button"
+              class="btn-control"
+              onclick="editQty('decrement')"
+            >
+              -
+            </button>
+            <p class="qty">0</p>
+            <button
+              type="button"
+              class="btn-control"
+              onclick="editQty('increment')"
+            >
+              +
+            </button>
+          </div>
+
+          <button type="button" class="button-pesan" onclick="addToCart()">
+            Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
